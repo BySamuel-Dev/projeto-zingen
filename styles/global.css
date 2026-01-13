@@ -9,6 +9,7 @@
   padding: 0;
   font: inherit;
 
+  /* Prefixo de um motor de navegador para deixar a fonte mais "suave" */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -24,24 +25,24 @@
   --brand-color-primary: #f7b733;
   --brand-color-secundary: #fc4a1a;
 
-  /* fonts */
+  /* fonts desktop */
+  /* Eu quero a fonte inter, porem se nao tiver ele busca no sistema os outros dois */
   --ff-sans: "Inter", system-ui, sans-serif;
   --fw-base: 400;
-  --fw-bold: 800;
   --fw-md: 500;
+  --fw-bold: 800;
 
-  /*font-mobile*/
+  /* font-mobile É recomendado sempre usar a unidade de medida "rem" e para conversão sempre o valor desejado deve ser dividido por 16  Ex: 14/16=0,875 */
   --fs-sm: 0.875rem; /*14px*/
   --fs-base: 1rem; /*16px*/
   --fs-lg: 1.25rem; /*20px*/
   --fs-xl: 1.5rem; /*24px*/
   --fs-2xl: 2.5rem; /*40px*/
 
-  /* spacing */
+  /* spacing no mobile */
   --py-base: 1rem;
   --py-lg: 1.5rem;
   --py-xl: 3rem;
-
   --px-lg: 1.5rem;
 }
 

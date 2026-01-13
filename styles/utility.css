@@ -16,16 +16,16 @@
   border: solid violet;
   margin-inline: auto;
 }
-
+/* Estratégia mobile firts : priorizando sempre o mobile e depois ajustamos para o desktop */
 .desktop-only {
   display: none;
 }
-
+/* Criação da classe "Even Columns" para organizar elementos em colunas iguais em diferentes dispositivos. Essas estratégias visam facilitar a construção e adaptação de layouts em projetos web.*/
 .even-columns {
   display: grid;
   gap: 1rem;
 }
-
+/* desktop */
 @media (width >= 80em) {
   .container {
     --max-width: 80rem;
