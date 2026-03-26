@@ -17,7 +17,7 @@
 
 
    background: var(--btn-bg-color);
-   color: var(--btn`-color);
+   color: var(--btn-color);
 }
 .btn:hover{
   --btn-bg-color: linear-gradient(
@@ -42,4 +42,37 @@
 .btn-lg {
   padding: 1rem 2rem;
   font-size: 1.125rem;
+}
+
+.btn[aria-label]{
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  
+}
+
+.btn[aria-label]::after{
+  
+  content: attr(aria-label);
+  background: var(--btn-bg-color);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  position: relative;
+  z-index: 2;
+  
+  
+}
+
+.btn[aria-label]::before{
+  content: "";
+  position: absolute;
+  border-radius: inherit;
+  inset: 1.5px;
+  background-color: var(--bg-color);
+  z-index: 1;
+
+
 }
