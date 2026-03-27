@@ -26,6 +26,10 @@
     var(--brand-color-primary)100%
   );
   --btn-color: var(--surface-color);
+
+    -webkit-background-clip: initial;
+   background-clip: initial;
+   color: var(--btn-color);
 }
 
 .btn-sm{
@@ -74,5 +78,20 @@
   background-color: var(--bg-color);
   z-index: 1;
 
+}
+
+@media (width >= 80em) {
+
+
+  .btn-sm{
+  padding: 0.75rem 1.5rem;
+ font-size: var(--fs-base);
+  }
+
+/* Variável não defininda 18/16= 1.125 */
+  .btn-md {
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
+  }
 
 }
