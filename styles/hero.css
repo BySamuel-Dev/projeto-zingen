@@ -11,8 +11,11 @@
   }
 
   & p{
-    font: var(--fw-md) var(--fs-lg)/1.4 var(--ff-sans);
-    color: var(--tx-color-secondary);
+    
+    font-weight:  var(--fw-md);
+    font-size:    var(--fs-base);
+    font-family:  var(--ff-sans);
+    color:        var(--tx-color-secondary);
     margin-top: 0.5rem;
   }
 

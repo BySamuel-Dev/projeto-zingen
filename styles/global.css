@@ -79,6 +79,8 @@ h3 {
   font-size: var(--fs-lg);
 }
 
+
+
 a {
   text-decoration: none;
   color: inherit;
@@ -110,10 +112,15 @@ ul[role="list"] {
     --fs-lg: 2rem;
     --fs-xl: 3rem;
     --fs-2xl: 4rem;
+    --fs-base: 1rem;
 
     --py-base: 1.5rem;
     --py-lg: 2.5rem;
     --py-xl: 5rem;
     --px-lg: 2rem;
   }
+  p {
+    font-size: var(--fs-base);
+  }
+
 }
