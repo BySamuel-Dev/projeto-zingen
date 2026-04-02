@@ -1,5 +1,16 @@
-![Nest Hub Max-1774902638235](https://github.com/user-attachments/assets/2d5d6881-65f6-4902-845f-b3b0085e5cb8)
+## Zingen🎵<br>
+Projeto web desenvolvido para apresentar uma interface moderna e responsiva para uma plataforma musical fictícia.<br>
+<br>
 A proposta simula uma landing page de um serviço relacionado à música, destacando conteúdos visuais e interações.<br>
+<br>
+🎯 Funcionalidades<br>
+📱 Layout totalmente responsivo<br>
+🎨 Design moderno e limpo<br>
+⚡ Carregamento rápido<br>
+🧩 Organização em seções (hero, conteúdo, botões, etc.)<br>
+🎵 Elementos visuais voltados para temática musical<br>
+<br>
+![Nest Hub Max-1774902638235](https://github.com/user-attachments/assets/2d5d6881-65f6-4902-845f-b3b0085e5cb8)
 📌 Sobre o Projeto<br>
 O Zingen é uma aplicação front-end criada com foco em:<br>
 Layout moderno e responsivo 📱<br>
